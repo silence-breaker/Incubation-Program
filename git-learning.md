@@ -2,8 +2,6 @@
 ## 学习网站
 [不错的git指令B站学习教程]（[15.尚硅谷_Git&GitHub_查看历史记录的几种不同方式_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1pW411A7a5?share_source=copy_web&vd_source=34ed110d766ac5910b35ccc9afedda6e&spm_id_from=333.788.player.switch&p=15)）
 ## 几个语句的基本关系
-![test](origin/基本架构.png)
-![test](origin/基本操作.png)
 ### 查看指令使用
 `git help [语句]`
 
@@ -24,18 +22,14 @@
 
  
 会显示历史步骤 [索引值]HEAD@{移动到当前版本需要多少步}
-![test](origin/git reflog显示.png)
 ### 版本控制
 `git reset --hard [索引值]` 
 
 
 可以直接跳转到索引值对应的状态
-![test](origin/使用reset历史回退.png)
-![test](origin/reset的三个参数对比.png)
-
 ## 分支管理
 版本库创立好后会有main分支(默认)
-![test](什么是分支.png)]
+
 1. 查看分支 
 
 
@@ -53,7 +47,8 @@
 2. `git merge [想要添加的改动内容的所在分支]`
 ### 处理分支冲突
 当在两个分支同时修改同一个文件并进行了commit后合并分支会失败，产生冲突
-![test](origin/不同分支合并时出现矛盾.png)
+
+
 <<<<<<< HEAD 和 ======= 围起来的是当前分支的改动内容
 
 
@@ -69,7 +64,7 @@
 至此冲突解决
 ## git的文件管理机制
 
-![test](origin/git的文件管理机制.png)
+
 ## 创建远程仓库
 在github上面完成操作即可，非常简单
 ## 将本地库上传到远程库
@@ -112,11 +107,8 @@ fetch+merge太麻烦怎么办
 ## 跨团队协作操作
 ### 对于外部人员
 
-![test](基本架构.png)
 1.  fork之后得到自己账号下所在仓库，并git clone该仓库，可在本地进行任意修改拉取
 2. 更改完后点击pull request，请求合并
-![test](origin/pull request界面.png)
-![test](origin/create pull request.png)
 3. 选择你要被合并的原远程库目标分支，与被合并的fork后的仓库分支，然后create
 ### 对内部人员
 1. 接受到pull request后可查看具体信息
@@ -126,7 +118,6 @@ fetch+merge太麻烦怎么办
    
 
    commits，Files changed用于查看具体文件信息
-![test](内部人员查看pull request场景.png)
 2. 确认无误后点merge即可合并代码
 3. 然后再pull到本地
 
