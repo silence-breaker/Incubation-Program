@@ -8,7 +8,8 @@
 
 ## 学习网站
 
-[不错的git指令B站学习教程][15.尚硅谷_Git&GitHub_查看历史记录的几种不同方式_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1pW411A7a5?share_source=copy_web&vd_source=34ed110d766ac5910b35ccc9afedda6e&spm_id_from=333.788.player.switch&p=15)
+[不错的git指令B站学习教程](https://www.bilibili.com/video/BV1pW411A7a5?share_source=copy_web&vd_source=34ed110d766ac5910b35ccc9afedda6e&spm_id_from=333.788.player.switch&p=15)
+*43之后的可以不用看了，因为我们用的都是github*
 
 ## 几个语句的基本关系
 
