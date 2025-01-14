@@ -1,9 +1,13 @@
 # 入门git基本指令
 
 1. 注意请在WSL环境中使用git，不要跟着B站视频里去下载windows中的git
+
+
 [微软git下载教程](https://learn.microsoft.com/zh-cn/windows/wsl/tutorials/wsl-git)
 重点看*安装Git*, *Git 配置文件设置*
 2. 配置SSH秘钥
+
+
 [教程网址](https://blog.csdn.net/weixin_42310154/article/details/118340458)
 
 ## 学习网站
