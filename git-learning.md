@@ -1,12 +1,25 @@
 # 入门git基本指令
+
+1. 注意请在WSL环境中使用git，不要跟着B站视频里去下载windows中的git
+[微软git下载教程](https://learn.microsoft.com/zh-cn/windows/wsl/tutorials/wsl-git)
+重点看*安装Git*, *Git 配置文件设置*
+2. 配置SSH秘钥
+[教程网址](https://blog.csdn.net/weixin_42310154/article/details/118340458)
+
 ## 学习网站
-[不错的git指令B站学习教程]（[15.尚硅谷_Git&GitHub_查看历史记录的几种不同方式_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1pW411A7a5?share_source=copy_web&vd_source=34ed110d766ac5910b35ccc9afedda6e&spm_id_from=333.788.player.switch&p=15)）
+
+[不错的git指令B站学习教程][15.尚硅谷_Git&GitHub_查看历史记录的几种不同方式_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1pW411A7a5?share_source=copy_web&vd_source=34ed110d766ac5910b35ccc9afedda6e&spm_id_from=333.788.player.switch&p=15)
+
 ## 几个语句的基本关系
+
 ### 查看指令使用
-`git help [语句]`
+
+`
+git help [语句]
+`
 
 ### 查看目录的方式
-`git log `
+`git log`
 
 
 最细
