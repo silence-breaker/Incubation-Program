@@ -7,6 +7,7 @@
 # 推荐软件
 
 **obsidian**和**vscode**
+
 在WSL中可以直接启用vscode，只需输入：
 
 ```shell
