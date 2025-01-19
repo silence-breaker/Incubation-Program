@@ -152,12 +152,21 @@ code <文件名>
 rm <文件名>
 ~~~
 
-**跨团队协作远程库操作**
+**远程库修改的拉取**
+pull = fetch + merge
+简单，不易出错的拉取：直接用pull
+易发生冲突：fetch + merge
+
+**跨团队协作远程库提交操作**
 - fork到本地库
 ~~~
 git clone <ssh码>
 ~~~
 注意给予当前文件夹足够的权限，使用sudo会使得环境ssh出错而失败。
+方法如下：
+~~~
+sudo chmod 777 /home/user/workspace/project
+~~~
 
 - 查看远程分支：
 首先，你可以使用 git remote show origin 命令查看远程仓库的详细信息，包括远程分支的信息：
@@ -188,4 +197,18 @@ git checkout -b feature-branch origin/feature-branch
 ~~~
 这里 git checkout -b feature-branch origin/feature-branch 的意思是创建一个名为 feature-branch 的本地分支，并使其跟踪 origin/feature-branch 远程分支。
 
+- 切换到该本地分支并pull
+~~~
+git pull origin <feature-branch>
+~~~
+
+- 在github上提交pull request等待审核
+
+
+
 ### STM32学习
+没什么时间学 TT 下周补上
+现在计划快速过一遍江科大的理论介绍然后转入hal库学习
+本周学习了DMA相关知识
+
+以上
