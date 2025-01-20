@@ -3,6 +3,7 @@
 
 请大家在安装了WSL，配置了SSH秘钥之后将这个仓库对应的自己的分支（注意！！！**不是main分支，是自己的分支**）fork到本地，在本地修改之后pr到对应自己的分支！！！
 
+这次没有帮大家建立week2文件夹，请大家自行建立并在里面上传自己的周学习报告（以后也是这样）
 
 [git学习](https://github.com/silence-breaker/Incubation-Program/blob/main/git-learning.md)
 
