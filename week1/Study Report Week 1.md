@@ -197,9 +197,9 @@ git checkout -b feature-branch origin/feature-branch
 ~~~
 这里 git checkout -b feature-branch origin/feature-branch 的意思是创建一个名为 feature-branch 的本地分支，并使其跟踪 origin/feature-branch 远程分支。
 
-- 切换到该本地分支并pull
+- 切换到该本地分支并push
 ~~~
-git pull origin <feature-branch>
+git push origin <feature-branch>
 ~~~
 
 - 在github上提交pull request等待审核
