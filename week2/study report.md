@@ -26,5 +26,5 @@
 
 - 学习了如何在HAL库里配置定时器中断
 
-  详细内容给见[博客](https://wj-blog.top)
+  详细内容给见[博客](https://www.wj-blog.top)
 - 做了一个30min倒计时(OLED显示)，最后5秒鸣叫,OLED显示一段内容
